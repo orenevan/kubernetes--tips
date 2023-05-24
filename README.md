@@ -11,3 +11,6 @@ kubectl exec --stdin --tty mypod -- ls
 kubectl exec  mypod -- ps 
 
 https://reviewnprep.com/blog/cheat-sheet-kubernetes-and-linux-commands/#Creating_and_Updating_a_Resource
+
+kubectl get componentstatus
+
