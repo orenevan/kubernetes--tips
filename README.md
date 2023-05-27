@@ -14,3 +14,11 @@ https://reviewnprep.com/blog/cheat-sheet-kubernetes-and-linux-commands/#Creating
 
 kubectl get componentstatus
 
+
+#Wait for pod to start 
+kubectl get pods -w --namespace default
+
+NAME                 READY   STATUS    RESTARTS   AGE
+mysql-1685213458-0   0/1     Pending   0          105s
+
+
