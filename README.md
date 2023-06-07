@@ -22,3 +22,7 @@ NAME                 READY   STATUS    RESTARTS   AGE
 mysql-1685213458-0   0/1     Pending   0          105s
 
 
+Getting certificates from cluster 
+kubectl config view --minify --flatten --context kind-terraform
+
+
