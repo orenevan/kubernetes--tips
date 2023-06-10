@@ -12,17 +12,17 @@ kubectl exec  mypod -- ps
 
 https://reviewnprep.com/blog/cheat-sheet-kubernetes-and-linux-commands/#Creating_and_Updating_a_Resource
 
-kubectl get componentstatus
+kubectl get component status
 
 
-#Wait for pod to start 
+# Wait for pod to start 
 kubectl get pods -w --namespace default
 
 NAME                 READY   STATUS    RESTARTS   AGE
 mysql-1685213458-0   0/1     Pending   0          105s
 
 
-Getting certificates from cluster 
+# Getting certificates from cluster 
 
 kubectl config view --minify --flatten --context kind-terraform
 
