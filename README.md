@@ -27,7 +27,7 @@ Getting certificates from cluster
 kubectl config view --minify --flatten --context kind-terraform
 
 
-affinity and labeles 
+# affinity and labeles 
 
 affinity:
     nodeAffinity:
@@ -36,6 +36,8 @@ affinity:
           - matchExpressions:
               - key: special
                 operator: Exists
+                
+                
 # Label the node 
 kubectl label nodes kind-cluster-control-plane  special=true
 
