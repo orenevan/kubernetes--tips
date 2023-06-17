@@ -44,5 +44,10 @@ kubectl label nodes kind-cluster-control-plane  special=true
 #Unlabeling 
 kubectl label node kind-cluster-control-plane special-
 
+# Troubleshoot deployment issues full guide
+https://learnk8s.io/troubleshooting-deployments
+
+
+
 
 
