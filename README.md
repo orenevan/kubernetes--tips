@@ -47,6 +47,12 @@ kubectl label node kind-cluster-control-plane special-
 # Troubleshoot deployment issues full guide
 https://learnk8s.io/troubleshooting-deployments
 
+Cluster auto-scaler 
+https://aws.github.io/aws-eks-best-practices/cluster-autoscaling/
+
+https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md
+
+
 
 
 
