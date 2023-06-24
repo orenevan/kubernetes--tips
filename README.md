@@ -52,7 +52,7 @@ https://aws.github.io/aws-eks-best-practices/cluster-autoscaling/
 
 https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md
 
-
+https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-types-of-pods-can-prevent-ca-from-removing-a-node
 
 
 
